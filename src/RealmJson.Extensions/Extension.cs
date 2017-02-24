@@ -336,7 +336,7 @@ namespace SushiHangover.RealmJson
         /// <summary>
         /// Create a non-managed copy of Realm's Query Result.
         /// </summary>
-        /// <param name="results">Realm collection</param>
+        /// <param name="list">Realm collection</param>
         /// <typeparam name="T">Type of the <see cref="RealmObject"/> in the results.</typeparam>
         /// <returns>The collection of non-managed realm objects.</returns>
         public static IList<T> NonManagedCopy<T>(this IList<T> list) where T : RealmObject
